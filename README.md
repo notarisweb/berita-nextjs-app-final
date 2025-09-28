@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <p align="center" style="margin-top: 120px">
   <img width="1040" alt="Cover" src="https://github.com/timtbdev/Next.js-Blog-App/assets/25026241/f4d08597-8f6e-4a2e-8807-0490eb7859be">
 
@@ -115,3 +116,7 @@ Admin dashboard will also be available on http://localhost:300/editor/posts
 ## License
 
 Licensed under the [MIT license](https://github.com/shadcn/taxonomy/blob/main/LICENSE.md).
+=======
+# berita-nextjs-app-final
+Next.js News Application (Final Version)
+>>>>>>> ea392dcad8f0e62ccca122863e47436b2c6aadd2
