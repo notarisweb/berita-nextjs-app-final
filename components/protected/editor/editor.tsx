@@ -37,8 +37,8 @@ import { Draft } from "@/types/collection";
 import { PaperClipIcon } from "@heroicons/react/20/solid";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Uppy from "@uppy/core";
-import "@uppy/core/style.min.css"; // KOREKSI: Jalur CSS diperbaiki
-import "@uppy/dashboard/style.min.css"; // KOREKSI: Jalur CSS diperbaiki
+import '@uppy/core/dist/style.css'; 
+import '@uppy/dashboard/dist/style.css'; 
 import { DashboardModal } from "@uppy/react";
 import Tus from "@uppy/tus";
 import { SparklesIcon, Loader2 as SpinnerIcon } from "lucide-react";
