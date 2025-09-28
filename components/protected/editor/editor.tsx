@@ -37,8 +37,8 @@ import { Draft } from "@/types/collection";
 import { PaperClipIcon } from "@heroicons/react/20/solid";
 import { zodResolver } from "@hookform/resolvers/zod";
 import Uppy from "@uppy/core";
-import "@uppy/core/dist/style.min.css";
-import "@uppy/dashboard/dist/style.min.css";
+import "@uppy/core/style.min.css"; // KOREKSI: Jalur CSS diperbaiki
+import "@uppy/dashboard/style.min.css"; // KOREKSI: Jalur CSS diperbaiki
 import { DashboardModal } from "@uppy/react";
 import Tus from "@uppy/tus";
 import { SparklesIcon, Loader2 as SpinnerIcon } from "lucide-react";
@@ -337,7 +337,7 @@ const Editor: FC<EditorProps> = ({
                                   {category.title}
                                 </FormLabel>
                               </FormItem>
-                            ),
+                            )
                         )}
                       </RadioGroup>
                     </FormControl>
@@ -426,7 +426,7 @@ const Editor: FC<EditorProps> = ({
               <CardDescription>
                 {protectedEditorConfig.galleryImageDescription +
                   allowedNumberOfImages +
-                  "  images."}
+                  "  images."}
               </CardDescription>
             </CardHeader>
             <Separator className="mb-8" />
